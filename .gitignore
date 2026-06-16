@@ -1,0 +1,34 @@
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*credential*
+*credentials*
+*password*
+*apikey*
+*api_key*
+
+# OpenClaw sensitive runtime/session files
+../security_quarantine/
+security_quarantine/
+../agents/main/sessions/
+agents/main/sessions/
+*.jsonl
+
+# Tool/config files that may contain credentials
+TOOLS.md
+workspace/TOOLS.md
+skills/jira-manager/references/config.json
+
+# Python/cache/temp
+__pycache__/
+*.pyc
+.tmp/
+tmp/
+*.log
+
+# Local archives/backups
+*.tar.gz
+*.zip
